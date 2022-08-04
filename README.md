@@ -15,7 +15,7 @@
 This repository has been modified to apply [Tracktor (tracking without bells and whistles)](https://github.com/phil-bergmann/tracking_wo_bnw) to cell image data.
 
 ## Installation
-Please refer to [here](https://github.com/phil-bergmann/tracking_wo_bnw) for environment construction. We have been tested under the environment of Python ３.７.10, pytorch １.７.1 and torchvision０.８.2.
+Please refer to [here](https://github.com/phil-bergmann/tracking_wo_bnw) for environment construction. We have been tested under the environment of Python 3.7.10, pytorch 1.7.1 and torchvision 0.8.2.
 1. Clone and enter this repository:
   ```
   git clone https://github.com/Hideo-Matsuda/LeukoTrack
