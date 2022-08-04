@@ -1,0 +1,29 @@
+data:
+  # directory path in train data
+  root: 'data/train/{group_name}'
+
+  # seq of train data name
+  seq: ['sample01', 'sample02','sample03',...,] 
+  num_workers: 1
+
+model:
+  initial_model:
+
+train:
+  gpu_id: 0 # Set a negative value to use CPU only
+  epochs: 30
+  initial_epoch: 1
+  batch_size: 5
+  optim:
+    lr: 0.00001
+    momentum: 0.9
+    weight_decay: 0.0005
+    step_lr:
+      step_size: 10
+      gamma: 0.1
+    
+out:
+  # directory path to save training model.
+  dir: 'train_results/{group_name}'
+  save_freq: 3
+  visual_freq: 10
