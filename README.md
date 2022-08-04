@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Contents
 - [Contents](#Contents)
 - [This repository](#This-repository)
@@ -151,4 +150,3 @@ python src/create_pseudo_labels.py
 =======
 # LeukoTrack
 Leukocyte tracking by CNN
->>>>>>> 1c52596b00da6d046debac907323cfe5a193887c
